@@ -56,24 +56,24 @@ When `RSET1` is not mounting with resistors, and `RSET2` is mounting with resist
 
 ---
 
- There are five LEDs to monitor the balancing status of the cells. When one of the LEDs is lit, it means that the corresponding cell is starting to balance. 
+There are five LEDs to monitor the balancing status of the cells. When one of the LEDs is lit, it means that the corresponding cell is starting to balance. 
  
- `LED1`, `LED2`, `LED3`, `LED4`, and `LED5` correspond to `B1`, `B2`, `B3`, `B4`, and `B5` respectively:
+`LED1`, `LED2`, `LED3`, `LED4`, and `LED5` correspond to `B1`, `B2`, `B3`, `B4`, and `B5` respectively:
 ![balance led 3D](/png/balance-led-3D.png "balance led 3D")
 
  ---
  
- At the same time, the `DO` and `CO` pins correspond to `DO_LED1` and `CO_LED1` respectively. This allows you to check the discharge and charge status. 
+At the same time, the `DO` and `CO` pins correspond to `DO_LED1` and `CO_LED1` respectively. This allows you to check the discharge and charge status. 
  
 ![CO DO led 3D](/png/CO-DO-led-3D.png "CO DO led 3D")
 
  ---
  
- Safe and reliable by providing control discharge overcurrent release terminals with optical coupler.
+Safe and reliable by providing control discharge overcurrent release terminals with optical coupler.
 
 Control of `OCCT` pin is via `XH P2.5mm 3pin` terminal.
 
-**[Warning]: The "OCCT" pin has not been tested. Usage instructions are not provided in the datasheet. Usage instructions will be provided after board testing.**
+**[Warning]: The `OCCT` pin has not been tested. Usage instructions are not provided in the datasheet. Usage instructions will be provided after board testing.**
 
 ![OCCT 3D](/png/OCCT-3D.png "OCCT 3D")
 
@@ -83,10 +83,10 @@ The board connection diagram is shown in the image.
 ![BM3451XXDC-T28A-Board Connection Diagram](/png/BM3451XXDC-T28A-Board-Connection-Diagram.png "BM3451XXDC-T28A-Board Connection Diagram")
 
 ## TODO
-- [ ] The board is not manufactured.
-- [ ] The board is not testing.
-- [ ] How the `OCCT` are work.
-- [ ] The donation channel is not currently open.
+- [ ] The board is manufactured.
+- [ ] The board is testing.
+- [ ] Know how `OCCT` works.
+- [ ] The donation channel is open.
 
 ## Contributions
 Every contribution to this repository is highly appreciated! If you spot any bug or problem, open a issue or pull request so that it can be rectified for everyone.
@@ -99,3 +99,5 @@ The donation channel is not currently open, so stay tuned.
 ## License
 For e-enthusiasts or geeks, follow the [CC-BY-NC-SA 4.0](/LICENSE.txt) license. For contributors and donors you can follow the [CC-BY 4.0](/LICENSE-CC-BY-4.0.txt) license, which means that commercial use is supported and distributed freely.
 
+## Information
+[BM3451XXDC-T28A DataSheet](http://www.bydmicro.com/params/field/preview/PDF_PRODUCT_202304141002.pdf)
